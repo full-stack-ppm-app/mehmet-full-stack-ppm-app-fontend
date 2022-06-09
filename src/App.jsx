@@ -28,7 +28,7 @@ const cache = new InMemoryCache({
 });
 // uri: 'http://localhost:4711/graphql',
 const client = new ApolloClient({
-  uri: ' https://mehmet-full-stack-ppm-app.herokuapp.com:4711/graphql',
+  uri: ' https://mehmet-full-stack-ppm-app.herokuapp.com/graphql',
   cache,
 });
 
