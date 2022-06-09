@@ -1,3 +1,4 @@
+import { Modal } from 'bootstrap/dist/js/bootstrap.bundle.js';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header';
